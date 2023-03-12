@@ -5,6 +5,7 @@
   }
   /*------------------- HEADER----------------- */
   .page-header {
+    padding-top: 24px;
     padding-bottom: 24px;
   }
   .current {
@@ -22,6 +23,16 @@
 
   .header-address-list:not(:last-child) {
     margin-right: 40px;
+  }
+
+  .header-address {
+    color: var(--primary-text-color);
+    font-style: normal;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    transition: color var(--transition-duration-and-func),
+      border var(--transition-duration-and-func);
   }
   /*------------------- HEADER----------------- */
   /*------------------- SERVICE----------------- */
