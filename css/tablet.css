@@ -93,6 +93,13 @@
         url(../images/people-office-2x.jpg);
     }
   }
+
+  .service-title {
+    max-width: 496px;
+    margin: 0 auto 36px;
+    font-size: 56px;
+    line-height: 1.07;
+  }
   /*------------------- SERVICE----------------- */
   /*------------------- RULES----------------- */
   .rules-title {
@@ -167,7 +174,7 @@
   }
 
   .container-logo {
-    margin-left: 108px;
+    margin-left: 93px;
   }
 
   .footer-logo {
@@ -189,7 +196,7 @@
 
   .container-subscribe {
     display: flex;
-    margin-left: 108px;
+    margin-left: 93px;
     /* margin-left: 80px; */
   }
 
