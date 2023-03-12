@@ -13,15 +13,25 @@
 
   /*------------------- HEADER----------------- */
   .page-header {
-    padding-top: 24px;
+    padding-top: 16px;
+    padding-bottom: 16px;
+  }
+
+  .header-logo {
+    margin-right: 120px;
   }
 
   .header-list {
     display: flex;
   }
 
-  .header-logo {
-    margin-right: 120px;
+  .header-link {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--title-text-color);
+    transition: color var(--transition-duration-and-func);
   }
 
   .header-item:not(:last-child) {
@@ -34,32 +44,22 @@
     gap: 12px;
   }
 
+  .current {
+    padding-bottom: 24px;
+  }
+
   .header-address-list {
     font-weight: 400;
     font-size: 12px;
     line-height: 1.17;
     letter-spacing: 0.04em;
-  }
-
-  .current {
-    padding-bottom: 18px;
-  }
-
-  .header-link {
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-    color: var(--title-text-color);
-    transition: color var(--transition-duration-and-func);
+    transition: color var(--transition-duration-and-func),
+      border var(--transition-duration-and-func);
   }
 
   .header-address {
     color: var(--primary-text-color);
     font-style: normal;
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
     transition: color var(--transition-duration-and-func),
       border var(--transition-duration-and-func);
   }
